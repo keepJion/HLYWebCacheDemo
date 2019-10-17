@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15190E922355A46E005DC60E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15190E912355A46E005DC60E /* AppDelegate.m */; };
+		15190E952355A46E005DC60E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15190E942355A46E005DC60E /* ViewController.m */; };
+		15190E982355A46E005DC60E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15190E962355A46E005DC60E /* Main.storyboard */; };
+		15190E9A2355A46F005DC60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15190E992355A46F005DC60E /* Assets.xcassets */; };
+		15190E9D2355A46F005DC60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15190E9B2355A46F005DC60E /* LaunchScreen.storyboard */; };
+		15190EA02355A46F005DC60E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15190E9F2355A46F005DC60E /* main.m */; };
+		15CBDD762355B84B002CC7CE /* HLYWebViewPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CBDD672355B84B002CC7CE /* HLYWebViewPool.m */; };
+		15CBDD772355B84B002CC7CE /* WKWebView+DelegateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CBDD6B2355B84B002CC7CE /* WKWebView+DelegateExtension.m */; };
+		15CBDD782355B84B002CC7CE /* VKMsgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CBDD6E2355B84B002CC7CE /* VKMsgSend.m */; };
+		15CBDD792355B84B002CC7CE /* HLYWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CBDD6F2355B84B002CC7CE /* HLYWebView.m */; };
+		15CBDD7A2355B84B002CC7CE /* WKWebView+ReusableExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CBDD712355B84B002CC7CE /* WKWebView+ReusableExtension.m */; };
+		15CBDD7B2355B84B002CC7CE /* HLYBridgeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CBDD722355B84B002CC7CE /* HLYBridgeDemo.m */; };
+		15CBDD7D2355B84B002CC7CE /* HLYHybridController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CBDD742355B84B002CC7CE /* HLYHybridController.m */; };
+		15CBDD832355BB8B002CC7CE /* HLYEventHandler.js in Resources */ = {isa = PBXBuildFile; fileRef = 15CBDD822355BB8B002CC7CE /* HLYEventHandler.js */; };
+		6AD63D08DAD591441862FA10 /* Pods_HLYWebDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D0F7F73AE099897901A28D /* Pods_HLYWebDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15190E8D2355A46E005DC60E /* HLYWebDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLYWebDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15190E902355A46E005DC60E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15190E912355A46E005DC60E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15190E932355A46E005DC60E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15190E942355A46E005DC60E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15190E972355A46E005DC60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15190E992355A46F005DC60E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15190E9C2355A46F005DC60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15190E9E2355A46F005DC60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15190E9F2355A46F005DC60E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15CBDD672355B84B002CC7CE /* HLYWebViewPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLYWebViewPool.m; sourceTree = "<group>"; };
+		15CBDD682355B84B002CC7CE /* WKWebView+ReusableExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+ReusableExtension.h"; sourceTree = "<group>"; };
+		15CBDD692355B84B002CC7CE /* HLYWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLYWebView.h; sourceTree = "<group>"; };
+		15CBDD6A2355B84B002CC7CE /* HLYWebViewPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLYWebViewPool.h; sourceTree = "<group>"; };
+		15CBDD6B2355B84B002CC7CE /* WKWebView+DelegateExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+DelegateExtension.m"; sourceTree = "<group>"; };
+		15CBDD6C2355B84B002CC7CE /* WKWebView+DelegateExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+DelegateExtension.h"; sourceTree = "<group>"; };
+		15CBDD6D2355B84B002CC7CE /* HLYHybridController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLYHybridController.h; sourceTree = "<group>"; };
+		15CBDD6E2355B84B002CC7CE /* VKMsgSend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKMsgSend.m; sourceTree = "<group>"; };
+		15CBDD6F2355B84B002CC7CE /* HLYWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLYWebView.m; sourceTree = "<group>"; };
+		15CBDD702355B84B002CC7CE /* VKMsgSend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKMsgSend.h; sourceTree = "<group>"; };
+		15CBDD712355B84B002CC7CE /* WKWebView+ReusableExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+ReusableExtension.m"; sourceTree = "<group>"; };
+		15CBDD722355B84B002CC7CE /* HLYBridgeDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLYBridgeDemo.m; sourceTree = "<group>"; };
+		15CBDD742355B84B002CC7CE /* HLYHybridController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLYHybridController.m; sourceTree = "<group>"; };
+		15CBDD752355B84B002CC7CE /* HLYBridgeDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLYBridgeDemo.h; sourceTree = "<group>"; };
+		15CBDD822355BB8B002CC7CE /* HLYEventHandler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = HLYEventHandler.js; sourceTree = "<group>"; };
+		1E51C20E464220B605C03C94 /* Pods-HLYWebDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLYWebDemo.release.xcconfig"; path = "Target Support Files/Pods-HLYWebDemo/Pods-HLYWebDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CAD328871655C751F0B66FF9 /* Pods-HLYWebDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLYWebDemo.debug.xcconfig"; path = "Target Support Files/Pods-HLYWebDemo/Pods-HLYWebDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E8D0F7F73AE099897901A28D /* Pods_HLYWebDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLYWebDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15190E8A2355A46E005DC60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD63D08DAD591441862FA10 /* Pods_HLYWebDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15190E842355A46E005DC60E = {
+			isa = PBXGroup;
+			children = (
+				15190E8F2355A46E005DC60E /* HLYWebDemo */,
+				15190E8E2355A46E005DC60E /* Products */,
+				CD627662490D2D63070B3277 /* Pods */,
+				F1B122A0DA6D84D0CE93B1A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15190E8E2355A46E005DC60E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15190E8D2355A46E005DC60E /* HLYWebDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15190E8F2355A46E005DC60E /* HLYWebDemo */ = {
+			isa = PBXGroup;
+			children = (
+				15CBDD662355B83A002CC7CE /* WebBridge */,
+				15190E902355A46E005DC60E /* AppDelegate.h */,
+				15190E912355A46E005DC60E /* AppDelegate.m */,
+				15190E932355A46E005DC60E /* ViewController.h */,
+				15190E942355A46E005DC60E /* ViewController.m */,
+				15190E962355A46E005DC60E /* Main.storyboard */,
+				15190E992355A46F005DC60E /* Assets.xcassets */,
+				15190E9B2355A46F005DC60E /* LaunchScreen.storyboard */,
+				15190E9E2355A46F005DC60E /* Info.plist */,
+				15190E9F2355A46F005DC60E /* main.m */,
+			);
+			path = HLYWebDemo;
+			sourceTree = "<group>";
+		};
+		15CBDD662355B83A002CC7CE /* WebBridge */ = {
+			isa = PBXGroup;
+			children = (
+				15CBDD812355B880002CC7CE /* WebPool */,
+				15CBDD802355B875002CC7CE /* Bridge */,
+				15CBDD7F2355B86C002CC7CE /* View */,
+				15CBDD7E2355B862002CC7CE /* Ctrl */,
+				15CBDD702355B84B002CC7CE /* VKMsgSend.h */,
+				15CBDD6E2355B84B002CC7CE /* VKMsgSend.m */,
+				15CBDD822355BB8B002CC7CE /* HLYEventHandler.js */,
+			);
+			path = WebBridge;
+			sourceTree = "<group>";
+		};
+		15CBDD7E2355B862002CC7CE /* Ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				15CBDD6D2355B84B002CC7CE /* HLYHybridController.h */,
+				15CBDD742355B84B002CC7CE /* HLYHybridController.m */,
+			);
+			path = Ctrl;
+			sourceTree = "<group>";
+		};
+		15CBDD7F2355B86C002CC7CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15CBDD692355B84B002CC7CE /* HLYWebView.h */,
+				15CBDD6F2355B84B002CC7CE /* HLYWebView.m */,
+				15CBDD6C2355B84B002CC7CE /* WKWebView+DelegateExtension.h */,
+				15CBDD6B2355B84B002CC7CE /* WKWebView+DelegateExtension.m */,
+				15CBDD682355B84B002CC7CE /* WKWebView+ReusableExtension.h */,
+				15CBDD712355B84B002CC7CE /* WKWebView+ReusableExtension.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15CBDD802355B875002CC7CE /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				15CBDD752355B84B002CC7CE /* HLYBridgeDemo.h */,
+				15CBDD722355B84B002CC7CE /* HLYBridgeDemo.m */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		15CBDD812355B880002CC7CE /* WebPool */ = {
+			isa = PBXGroup;
+			children = (
+				15CBDD6A2355B84B002CC7CE /* HLYWebViewPool.h */,
+				15CBDD672355B84B002CC7CE /* HLYWebViewPool.m */,
+			);
+			path = WebPool;
+			sourceTree = "<group>";
+		};
+		CD627662490D2D63070B3277 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAD328871655C751F0B66FF9 /* Pods-HLYWebDemo.debug.xcconfig */,
+				1E51C20E464220B605C03C94 /* Pods-HLYWebDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1B122A0DA6D84D0CE93B1A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0F7F73AE099897901A28D /* Pods_HLYWebDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15190E8C2355A46E005DC60E /* HLYWebDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15190EA32355A46F005DC60E /* Build configuration list for PBXNativeTarget "HLYWebDemo" */;
+			buildPhases = (
+				26CB2543A7E182F83E64C92C /* [CP] Check Pods Manifest.lock */,
+				15190E892355A46E005DC60E /* Sources */,
+				15190E8A2355A46E005DC60E /* Frameworks */,
+				15190E8B2355A46E005DC60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLYWebDemo;
+			productName = HLYWebDemo;
+			productReference = 15190E8D2355A46E005DC60E /* HLYWebDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15190E852355A46E005DC60E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = codesign;
+				TargetAttributes = {
+					15190E8C2355A46E005DC60E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 15190E882355A46E005DC60E /* Build configuration list for PBXProject "HLYWebDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15190E842355A46E005DC60E;
+			productRefGroup = 15190E8E2355A46E005DC60E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15190E8C2355A46E005DC60E /* HLYWebDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15190E8B2355A46E005DC60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15190E9D2355A46F005DC60E /* LaunchScreen.storyboard in Resources */,
+				15190E9A2355A46F005DC60E /* Assets.xcassets in Resources */,
+				15CBDD832355BB8B002CC7CE /* HLYEventHandler.js in Resources */,
+				15190E982355A46E005DC60E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26CB2543A7E182F83E64C92C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLYWebDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15190E892355A46E005DC60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CBDD7B2355B84B002CC7CE /* HLYBridgeDemo.m in Sources */,
+				15CBDD782355B84B002CC7CE /* VKMsgSend.m in Sources */,
+				15CBDD772355B84B002CC7CE /* WKWebView+DelegateExtension.m in Sources */,
+				15CBDD7D2355B84B002CC7CE /* HLYHybridController.m in Sources */,
+				15190E952355A46E005DC60E /* ViewController.m in Sources */,
+				15190EA02355A46F005DC60E /* main.m in Sources */,
+				15CBDD792355B84B002CC7CE /* HLYWebView.m in Sources */,
+				15190E922355A46E005DC60E /* AppDelegate.m in Sources */,
+				15CBDD7A2355B84B002CC7CE /* WKWebView+ReusableExtension.m in Sources */,
+				15CBDD762355B84B002CC7CE /* HLYWebViewPool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15190E962355A46E005DC60E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15190E972355A46E005DC60E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15190E9B2355A46F005DC60E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15190E9C2355A46F005DC60E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15190EA12355A46F005DC60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15190EA22355A46F005DC60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15190EA42355A46F005DC60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD328871655C751F0B66FF9 /* Pods-HLYWebDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y5XMKVYL88;
+				INFOPLIST_FILE = HLYWebDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hly.expense.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "hly expense dev";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15190EA52355A46F005DC60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E51C20E464220B605C03C94 /* Pods-HLYWebDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y5XMKVYL88;
+				INFOPLIST_FILE = HLYWebDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hly.expense.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "hly expense dev hoc";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15190E882355A46E005DC60E /* Build configuration list for PBXProject "HLYWebDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15190EA12355A46F005DC60E /* Debug */,
+				15190EA22355A46F005DC60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15190EA32355A46F005DC60E /* Build configuration list for PBXNativeTarget "HLYWebDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15190EA42355A46F005DC60E /* Debug */,
+				15190EA52355A46F005DC60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15190E852355A46E005DC60E /* Project object */;
+}
