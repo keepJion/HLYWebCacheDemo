@@ -8,7 +8,6 @@
 
 #import "HLYBridgeDemo.h"
 #import "HLYHybridController.h"
-#import <WXApi.h>
 
 @implementation HLYBridgeDemo
 
@@ -66,7 +65,7 @@
 - (void)new_webView:(id)params :(void(^)(id response))successBack :(void(^)(id response))failureBack {
     NSArray *list = @[@"https://www.qq.com",@"https://www.baidu.com",@"https://www.alipay.com"];
     NSInteger index = arc4random() % 3;
-    NSString *url = params[@"url"];
+//    NSString *url = params[@"url"];
     UIViewController *ctrl = [self getCurrentViewController:nil];
     HLYHybridController *hlyCtrl = [[HLYHybridController alloc] init];
     [hlyCtrl hly_bindWebViewLoadUrl:list[index] isLocal:false];
@@ -83,15 +82,15 @@
 
 //获取微信电子票信息
 - (void)chooseInvoiceTicket:(id)params :(void (^)(id))successBack :(void (^)(id))failureBack {
-    NSString *appid = params[@"appId"]?:@"wx82a1dd12c4147742";
-    [WXApi registerApp:appid enableMTA:YES];
-    WXChooseCardReq *chooseReq = [[WXChooseCardReq alloc] init];
-    chooseReq.appID = appid;
-    chooseReq.cardSign = params[@"cardSign"];
-    chooseReq.nonceStr = params[@"nonceStr"];
-    chooseReq.signType = @"SHA1";
-    chooseReq.timeStamp = [params[@"timestamp"] integerValue];
-    [WXApi sendReq:chooseReq];
+//    NSString *appid = params[@"appId"]?:@"wx82a1dd12c4147742";
+//    [WXApi registerApp:appid enableMTA:YES];
+//    WXChooseCardReq *chooseReq = [[WXChooseCardReq alloc] init];
+//    chooseReq.appID = appid;
+//    chooseReq.cardSign = params[@"cardSign"];
+//    chooseReq.nonceStr = params[@"nonceStr"];
+//    chooseReq.signType = @"SHA1";
+//    chooseReq.timeStamp = [params[@"timestamp"] integerValue];
+//    [WXApi sendReq:chooseReq];
 }
 
 @end

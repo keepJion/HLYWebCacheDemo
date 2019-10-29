@@ -19,6 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+
 - (IBAction)demoOpenWebCtrl:(UIButton *)sender {
     HLYHybridController *ctrl = [[HLYHybridController alloc] init];
     NSArray *list = @[@"https://www.qq.com",@"https://www.baidu.com",@"https://www.alipay.com",@"https://dingtalkstage.huilianyi.com/huilianyi/online/jssdk-demo/index.html"];
@@ -28,7 +29,6 @@
     [ctrl hly_bindWebViewLoadUrl:url isLocal:false];
     [self.navigationController pushViewController:ctrl animated:true];
     
-    NSLog(@"%@",list[6]);
 }
 
 

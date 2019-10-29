@@ -38,7 +38,7 @@
 //布局子视图
 - (void)hly_layoutSubViews {
     self.navigationController.navigationBar.hidden = self.isHiddenNav;
-    CGFloat height = self.navigationController.navigationBar.frame.size.height;
+    CGFloat height = self.navigationController.navigationBar.frame.size.height + self.navigationController.navigationBar.frame.origin.y;
     if (self.isHiddenNav) {
         height = 0.0;
     }
