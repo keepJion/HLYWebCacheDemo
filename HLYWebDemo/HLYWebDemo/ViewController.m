@@ -27,6 +27,8 @@
     NSLog(@"url is %@",url);
     [ctrl hly_bindWebViewLoadUrl:url isLocal:false];
     [self.navigationController pushViewController:ctrl animated:true];
+    
+    NSLog(@"%@",list[6]);
 }
 
 

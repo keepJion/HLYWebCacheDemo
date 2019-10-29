@@ -3,161 +3,76 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = WechatOpenSDK;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		068B92A4559295D164B3BFEE5A69CD1E /* Pods-HLYWebDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 102E6339838F564C2EA2CEC2476158A6 /* Pods-HLYWebDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D275D8364DB7EE5613C376E8A34ECED /* Pods-HLYWebDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 500F2EB46570D9F526D1073D01CE4FF7 /* Pods-HLYWebDemo-dummy.m */; };
-		2F954EA9DBA19D79422C0AFA7EEA986D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5D07F65C6E182222280E12A32CEBE0A6 /* Pods-HLYWebDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B59391503D9A4ADAF07EBCA452C5CBDA /* Pods-HLYWebDemo-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B7092720D59EE94671121AEC6EF3D5BA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
-			remoteInfo = WechatOpenSDK;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		05667E3B1BD1C8BB2D3D44519680BB93 /* Pods-HLYWebDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLYWebDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		102E6339838F564C2EA2CEC2476158A6 /* Pods-HLYWebDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HLYWebDemo-umbrella.h"; sourceTree = "<group>"; };
-		2A2A6C3C3636D8F8F52311F9F7BD44AC /* Pods-HLYWebDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLYWebDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		2DC7CD7C45EA0E5E00845EC709BA7966 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatSDK1.8.4/WXApi.h; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		49FB418B04F08971EA22721010AFF408 /* Pods-HLYWebDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLYWebDemo-Info.plist"; sourceTree = "<group>"; };
-		500F2EB46570D9F526D1073D01CE4FF7 /* Pods-HLYWebDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLYWebDemo-dummy.m"; sourceTree = "<group>"; };
-		6B667346616FB3AF0AA93817F6DF6AEA /* Pods-HLYWebDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLYWebDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6F7DC82E5B67817926DA021256040B52 /* WechatOpenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.xcconfig; sourceTree = "<group>"; };
-		7420450A4301CCEFDB118C3C04A43933 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WeChatSDK1.8.4/WXApiObject.h; sourceTree = "<group>"; };
-		7BAEF780361853C8EFABDECC26C97E5C /* Pods_HLYWebDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HLYWebDemo.framework; path = "Pods-HLYWebDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E71B62523846CD11156ED1042E6F02 /* Pods-HLYWebDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLYWebDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		39876A9F940A6E38A9346740487DF937 /* Pods-HLYWebDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLYWebDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		702E7C79D15059D092E0DAD35E900637 /* Pods-HLYWebDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLYWebDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AF9329D7ED54EDB15A0FDC44452FAA98 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.4/WechatAuthSDK.h; sourceTree = "<group>"; };
-		C4F01B3779E0903BD842419E036E17B7 /* Pods-HLYWebDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HLYWebDemo.modulemap"; sourceTree = "<group>"; };
-		CAAFF64FB0985F3A27251528C7CBA82C /* Pods-HLYWebDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLYWebDemo.release.xcconfig"; sourceTree = "<group>"; };
-		F3CE61381E500927A41E830B1DCF0507 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WeChatSDK1.8.4/libWeChatSDK.a; sourceTree = "<group>"; };
+		A05A812D43C8D043BAB9A3C74D79E8EC /* libPods-HLYWebDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HLYWebDemo.a"; path = "libPods-HLYWebDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59391503D9A4ADAF07EBCA452C5CBDA /* Pods-HLYWebDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLYWebDemo-dummy.m"; sourceTree = "<group>"; };
+		BD6253EA5AE61E73EB199832EB685AC2 /* Pods-HLYWebDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLYWebDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7EB9C0F5FCD302EB6B4E63CB0CAE97BC /* Frameworks */ = {
+		643B8BA318B0600FD892764D0D309725 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F954EA9DBA19D79422C0AFA7EEA986D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		52C06D29DE8A74D8B72B83758947D95F /* Pods */ = {
+		4B0864D31E9ECD9CCDFBB947BE2632B3 /* Pods-HLYWebDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9FF58DE0D841903DD6314ADE95472F94 /* WechatOpenSDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		9FF58DE0D841903DD6314ADE95472F94 /* WechatOpenSDK */ = {
-			isa = PBXGroup;
-			children = (
-				AF9329D7ED54EDB15A0FDC44452FAA98 /* WechatAuthSDK.h */,
-				2DC7CD7C45EA0E5E00845EC709BA7966 /* WXApi.h */,
-				7420450A4301CCEFDB118C3C04A43933 /* WXApiObject.h */,
-				DDF635DB9DD730AAE6B6D4D43BB216E2 /* Frameworks */,
-				AE98F36C390AE6527D1ACA8EA4E34F04 /* Support Files */,
-			);
-			name = WechatOpenSDK;
-			path = WechatOpenSDK;
-			sourceTree = "<group>";
-		};
-		A2931592705CDBD1679AB4C722957EA6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7BAEF780361853C8EFABDECC26C97E5C /* Pods_HLYWebDemo.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		AE98F36C390AE6527D1ACA8EA4E34F04 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6F7DC82E5B67817926DA021256040B52 /* WechatOpenSDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/WechatOpenSDK";
-			sourceTree = "<group>";
-		};
-		BD256E80F4DA5D41186DE21A31270C76 /* Pods-HLYWebDemo */ = {
-			isa = PBXGroup;
-			children = (
-				C4F01B3779E0903BD842419E036E17B7 /* Pods-HLYWebDemo.modulemap */,
-				6B667346616FB3AF0AA93817F6DF6AEA /* Pods-HLYWebDemo-acknowledgements.markdown */,
-				05667E3B1BD1C8BB2D3D44519680BB93 /* Pods-HLYWebDemo-acknowledgements.plist */,
-				500F2EB46570D9F526D1073D01CE4FF7 /* Pods-HLYWebDemo-dummy.m */,
-				49FB418B04F08971EA22721010AFF408 /* Pods-HLYWebDemo-Info.plist */,
-				102E6339838F564C2EA2CEC2476158A6 /* Pods-HLYWebDemo-umbrella.h */,
-				2A2A6C3C3636D8F8F52311F9F7BD44AC /* Pods-HLYWebDemo.debug.xcconfig */,
-				CAAFF64FB0985F3A27251528C7CBA82C /* Pods-HLYWebDemo.release.xcconfig */,
+				BD6253EA5AE61E73EB199832EB685AC2 /* Pods-HLYWebDemo-acknowledgements.markdown */,
+				11E71B62523846CD11156ED1042E6F02 /* Pods-HLYWebDemo-acknowledgements.plist */,
+				B59391503D9A4ADAF07EBCA452C5CBDA /* Pods-HLYWebDemo-dummy.m */,
+				39876A9F940A6E38A9346740487DF937 /* Pods-HLYWebDemo.debug.xcconfig */,
+				702E7C79D15059D092E0DAD35E900637 /* Pods-HLYWebDemo.release.xcconfig */,
 			);
 			name = "Pods-HLYWebDemo";
 			path = "Target Support Files/Pods-HLYWebDemo";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		ABDB227234FDB7A91A6E98DD1E0548A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				A05A812D43C8D043BAB9A3C74D79E8EC /* libPods-HLYWebDemo.a */,
 			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				52C06D29DE8A74D8B72B83758947D95F /* Pods */,
-				A2931592705CDBD1679AB4C722957EA6 /* Products */,
-				D56D615FE85EDE85C5C71AB717E6FEE2 /* Targets Support Files */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				ABDB227234FDB7A91A6E98DD1E0548A6 /* Products */,
+				D086478C805F15BF0C033BEE2586E62F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D086478C805F15BF0C033BEE2586E62F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D56D615FE85EDE85C5C71AB717E6FEE2 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BD256E80F4DA5D41186DE21A31270C76 /* Pods-HLYWebDemo */,
+				4B0864D31E9ECD9CCDFBB947BE2632B3 /* Pods-HLYWebDemo */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DDF635DB9DD730AAE6B6D4D43BB216E2 /* Frameworks */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F3CE61381E500927A41E830B1DCF0507 /* libWeChatSDK.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,11 +80,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		030B94AFA0DEC4BCBFA6ED0C259472C6 /* Headers */ = {
+		E58C85187061DFEC823CEF3CE009B6B8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				068B92A4559295D164B3BFEE5A69CD1E /* Pods-HLYWebDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,22 +92,20 @@
 /* Begin PBXNativeTarget section */
 		358ED3E98DFB4BBC0F19E440D7A5A702 /* Pods-HLYWebDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1803141F4D21F96ECE3307ED320F0785 /* Build configuration list for PBXNativeTarget "Pods-HLYWebDemo" */;
+			buildConfigurationList = B2F37330D5197EC1F69DC54480064916 /* Build configuration list for PBXNativeTarget "Pods-HLYWebDemo" */;
 			buildPhases = (
-				030B94AFA0DEC4BCBFA6ED0C259472C6 /* Headers */,
-				D3825FC675C58E272D580AF05370B91E /* Sources */,
-				7EB9C0F5FCD302EB6B4E63CB0CAE97BC /* Frameworks */,
-				3B24FC175E7702B864852006FE3AF201 /* Resources */,
+				E58C85187061DFEC823CEF3CE009B6B8 /* Headers */,
+				9D317695A981556A00F946BFFE5422EB /* Sources */,
+				643B8BA318B0600FD892764D0D309725 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				72A2CE7AC723071AEE1A027F3DDB1AD9 /* PBXTargetDependency */,
 			);
 			name = "Pods-HLYWebDemo";
 			productName = "Pods-HLYWebDemo";
-			productReference = 7BAEF780361853C8EFABDECC26C97E5C /* Pods_HLYWebDemo.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = A05A812D43C8D043BAB9A3C74D79E8EC /* libPods-HLYWebDemo.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -205,92 +117,34 @@
 				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A2931592705CDBD1679AB4C722957EA6 /* Products */;
+			productRefGroup = ABDB227234FDB7A91A6E98DD1E0548A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				358ED3E98DFB4BBC0F19E440D7A5A702 /* Pods-HLYWebDemo */,
-				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		3B24FC175E7702B864852006FE3AF201 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		D3825FC675C58E272D580AF05370B91E /* Sources */ = {
+		9D317695A981556A00F946BFFE5422EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D275D8364DB7EE5613C376E8A34ECED /* Pods-HLYWebDemo-dummy.m in Sources */,
+				5D07F65C6E182222280E12A32CEBE0A6 /* Pods-HLYWebDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		72A2CE7AC723071AEE1A027F3DDB1AD9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WechatOpenSDK;
-			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
-			targetProxy = B7092720D59EE94671121AEC6EF3D5BA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		1549873BD6ADC1A230C84786DFF36864 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A2A6C3C3636D8F8F52311F9F7BD44AC /* Pods-HLYWebDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HLYWebDemo/Pods-HLYWebDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HLYWebDemo/Pods-HLYWebDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -355,77 +209,28 @@
 			};
 			name = Debug;
 		};
-		2592D70F4919E1A39690DAB86B593A00 /* Release */ = {
+		1D13D920FA6DB1D28262BB04E11E84FA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F7DC82E5B67817926DA021256040B52 /* WechatOpenSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		55A31B93D59EE09917621EB923B83330 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAAFF64FB0985F3A27251528C7CBA82C /* Pods-HLYWebDemo.release.xcconfig */;
+			baseConfigurationReference = 702E7C79D15059D092E0DAD35E900637 /* Pods-HLYWebDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HLYWebDemo/Pods-HLYWebDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HLYWebDemo/Pods-HLYWebDemo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		6774F28FD1EDE95AD481A20B2215BB5F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F7DC82E5B67817926DA021256040B52 /* WechatOpenSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -487,18 +292,31 @@
 			};
 			name = Release;
 		};
+		C807E81D6206580DC5A19017936039FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39876A9F940A6E38A9346740487DF937 /* Pods-HLYWebDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1803141F4D21F96ECE3307ED320F0785 /* Build configuration list for PBXNativeTarget "Pods-HLYWebDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1549873BD6ADC1A230C84786DFF36864 /* Debug */,
-				55A31B93D59EE09917621EB923B83330 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -508,11 +326,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+		B2F37330D5197EC1F69DC54480064916 /* Build configuration list for PBXNativeTarget "Pods-HLYWebDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6774F28FD1EDE95AD481A20B2215BB5F /* Debug */,
-				2592D70F4919E1A39690DAB86B593A00 /* Release */,
+				C807E81D6206580DC5A19017936039FC /* Debug */,
+				1D13D920FA6DB1D28262BB04E11E84FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

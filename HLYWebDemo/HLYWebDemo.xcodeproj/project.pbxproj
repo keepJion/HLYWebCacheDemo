@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,7 +21,7 @@
 		15CBDD7B2355B84B002CC7CE /* HLYBridgeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CBDD722355B84B002CC7CE /* HLYBridgeDemo.m */; };
 		15CBDD7D2355B84B002CC7CE /* HLYHybridController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CBDD742355B84B002CC7CE /* HLYHybridController.m */; };
 		15CBDD832355BB8B002CC7CE /* HLYEventHandler.js in Resources */ = {isa = PBXBuildFile; fileRef = 15CBDD822355BB8B002CC7CE /* HLYEventHandler.js */; };
-		6AD63D08DAD591441862FA10 /* Pods_HLYWebDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D0F7F73AE099897901A28D /* Pods_HLYWebDemo.framework */; };
+		D5DEAAB498473C05E34E0C19 /* libPods-HLYWebDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2354637D5BAC72D995C1EBFB /* libPods-HLYWebDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,8 +51,8 @@
 		15CBDD752355B84B002CC7CE /* HLYBridgeDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLYBridgeDemo.h; sourceTree = "<group>"; };
 		15CBDD822355BB8B002CC7CE /* HLYEventHandler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = HLYEventHandler.js; sourceTree = "<group>"; };
 		1E51C20E464220B605C03C94 /* Pods-HLYWebDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLYWebDemo.release.xcconfig"; path = "Target Support Files/Pods-HLYWebDemo/Pods-HLYWebDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2354637D5BAC72D995C1EBFB /* libPods-HLYWebDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLYWebDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD328871655C751F0B66FF9 /* Pods-HLYWebDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLYWebDemo.debug.xcconfig"; path = "Target Support Files/Pods-HLYWebDemo/Pods-HLYWebDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		E8D0F7F73AE099897901A28D /* Pods_HLYWebDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLYWebDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AD63D08DAD591441862FA10 /* Pods_HLYWebDemo.framework in Frameworks */,
+				D5DEAAB498473C05E34E0C19 /* libPods-HLYWebDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +168,7 @@
 		F1B122A0DA6D84D0CE93B1A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E8D0F7F73AE099897901A28D /* Pods_HLYWebDemo.framework */,
+				2354637D5BAC72D995C1EBFB /* libPods-HLYWebDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,6 +184,7 @@
 				15190E892355A46E005DC60E /* Sources */,
 				15190E8A2355A46E005DC60E /* Frameworks */,
 				15190E8B2355A46E005DC60E /* Resources */,
+				15EDB01523584F17006E9C7A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -241,6 +242,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		15EDB01523584F17006E9C7A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}\n",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n\nif [ $CONFIGURATION == Release ]; then\nif which sentry-cli >/dev/null; then\nexport SENTRY_ORG=huilianyi\nexport SENTRY_PROJECT=hly\nexport SENTRY_AUTH_TOKEN=1964cc627908401884e87756c648d58ec7cca4c6ec04465aa32a7826a3d5ddae\nERROR=$(sentry-cli upload-dif \"$DWARF_DSYM_FOLDER_PATH\" 2>&1 >/dev/null)\nif [ ! $? -eq 0 ]; then\necho \"warning: sentry-cli - $ERROR\"\nfi\nelse\necho \"warning: sentry-cli not installed, download from https://github.com/getsentry/sentry-cli/releases\"\nfi\nelse \necho \"debug version\"\nfi\n";
+		};
 		26CB2543A7E182F83E64C92C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,7 +442,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = Y5XMKVYL88;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HLYWebDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -444,7 +465,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = Y5XMKVYL88;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HLYWebDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
